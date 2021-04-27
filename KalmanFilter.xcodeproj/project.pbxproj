@@ -62,10 +62,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CEF0076E1D650AEE0084F081 = {
+		B34A80E62637A27B00E320E4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				CEF0077A1D650AEE0084F081 /* KalmanFilter */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CEF0076E1D650AEE0084F081 = {
+			isa = PBXGroup;
+			children = (
+				B34A80E62637A27B00E320E4 /* Sources */,
 				CEF007861D650AEE0084F081 /* KalmanFilterTests */,
 				CEF007791D650AEE0084F081 /* Products */,
 			);
@@ -179,6 +187,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CEF0076E1D650AEE0084F081;
@@ -360,7 +369,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = KalmanFilter/Info.plist;
+				INFOPLIST_FILE = Sources/KalmanFilter/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -383,7 +392,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = KalmanFilter/Info.plist;
+				INFOPLIST_FILE = Sources/KalmanFilter/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
