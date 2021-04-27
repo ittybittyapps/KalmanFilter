@@ -62,10 +62,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CEF0076E1D650AEE0084F081 = {
+		B34A80E62637A27B00E320E4 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				CEF0077A1D650AEE0084F081 /* KalmanFilter */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		CEF0076E1D650AEE0084F081 = {
+			isa = PBXGroup;
+			children = (
+				B34A80E62637A27B00E320E4 /* Sources */,
 				CEF007861D650AEE0084F081 /* KalmanFilterTests */,
 				CEF007791D650AEE0084F081 /* Products */,
 			);
@@ -179,6 +187,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CEF0076E1D650AEE0084F081;
